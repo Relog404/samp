@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 const CONFIG = {
-    TOKEN: 'MTUyODg4NDY5MDE2ODMyMDEzMA.GQFwXs.kp-9Dw7UfoDX61mbFkIufOnvh40ZpqoaTEWOHg',
+    TOKEN: process.env.DISCORD_TOKEN,  // ← ТАК!
     GUILD_ID: '1176463454756950016',
     SECRET_KEY: 'MySuperSecretKey2024!',
     PORT: process.env.PORT || 8080

@@ -1,4 +1,6 @@
-# NEON // ARENA — SA-MP gamemode
+# NEON // ARENA — SA-MP 0.3.7 gamemode
+
+Target: the repository's SA-MP 0.3.7 server/client API. `arena.amx` is compiled in Pawn compatibility mode (`-Z+`) for SA-MP's legacy AMX runtime.
 
 ## What is implemented
 - Unity Station hub at Los Santos, dispatcher actor, ALT and `/arena` interaction.
